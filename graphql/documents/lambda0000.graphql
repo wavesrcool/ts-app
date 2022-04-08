@@ -1,0 +1,10 @@
+mutation _lambda0000($lambda: lambda0000e!) {
+  lambda__0000(lambda: $lambda) {
+    lambda {
+      path
+      order
+    }
+    pass
+    message
+  }
+}

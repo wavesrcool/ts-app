@@ -1,0 +1,14 @@
+overwrite: true
+schema: ''
+documents: 'graphql/documents/**/*.graphql'
+hooks:
+  afterAllFileWrite:
+    - eslint --fix
+    - prettier --write
+generates:
+  graphql/hooks/index.tsx:
+    config:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-apollo'

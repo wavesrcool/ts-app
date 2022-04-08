@@ -1,0 +1,4 @@
+node_modules/
+graphql/hooks/index.tsx
+metro.config.js
+types.d.ts

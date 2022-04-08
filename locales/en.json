@@ -1,0 +1,77 @@
+{
+  "glossary": {
+    "simple": {
+      "password": "Password",
+      "continue": "Continue",
+      "hello": "Hello"
+    },
+
+    "compound": {
+      "back_to": "Back to",
+      "forgot_password_Q": "Forgot password?",
+      "forgot_password": "Forgot password",
+      "email_address": "Email address",
+      "email_address_uc": "Email Address",
+      "log_in": "Log in",
+      "log_in_uc": "Log In",
+      "sign_in": "Sign in",
+      "sign_in_uc": "Sign In",
+      "sign_up": "Sign up",
+      "sign_up_uc": "Sign Up"
+    },
+
+    "phrases": {
+      "touble_logging_in_Q": "Touble logging in?",
+      "dont_have_an_account_Q": "Don't have an account?",
+      "phone_number_username_or_email": "Phone number, username or email",
+      "username_or_email_address": "Username or email address",
+      "enter_an_email_address": "Enter an email address"
+    }
+  },
+
+  "library": {
+    "screens": {
+      "access": {},
+
+      "open": {
+        "initial": {
+          "create_account": "Create new account"
+        },
+
+        "sign_up": {
+          "already_have_an_account_Q": "Already have an account?"
+        },
+
+        "forgot_password": {
+          "content_l1": "Enter your username or email and we'll send",
+          "content_l2": "you a link to get back into your account"
+        }
+      }
+    }
+  },
+
+  "errors": {
+    "screen": {
+      "catch": {
+        "general": "There was an error processing your request. Please check your internet connection and try again"
+      },
+
+      "sign_up": {
+        "shape_value_email": "Please enter a valid email address to sign up",
+        "shape_value_phone": "Please enter a valid phone number to sign up",
+        "shape_value_all": "Please enter an email address or phone number to sign up"
+      },
+
+      "sign_in": {
+        "shape_password": "Please enter your password to log in",
+        "shape_value_email_username": "Please enter your username or email to log in",
+        "shape_value_phone_email_username": "Please enter your phone number, username or email to log in"
+      },
+
+      "confirm_email": {
+        "incorrect_email": "This code is not valid for the email used to sign up",
+        "incorrect_phone": "This code is not valid for the phone used to sign up"
+      }
+    }
+  }
+}
